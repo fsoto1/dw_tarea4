@@ -9,4 +9,7 @@ $(document).ready(function(){
     	tamaño --;
         $(".container p").css('font-size',tamaño+'px');
     });
+    $('#font_family').change(function(){
+    	$(".container").css("font-family",$('option:selected').text());
+	});
 });
