@@ -12,4 +12,7 @@ $(document).ready(function(){
     $('#font_family').change(function(){
     	$(".container").css("font-family",$('option:selected').text());
 	});
+	$('#bgcolor').change(function(){
+    	$("body").css("background",$('#bgcolor').val());
+	});
 });
